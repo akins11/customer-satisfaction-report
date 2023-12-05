@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Coffee House Survey"
+
+format:
+  html:
+    fig-height: 4 
+    theme: 
+      - Zephyr
+      - custom.scss
+    css: styles.css
+    page-layout: custom
+
+
+
