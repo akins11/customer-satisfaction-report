@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.340">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Coffee House Survey – preference</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+<i class="bi bi-list" id="hover_icon"></i>
+<div class="container c_hidden" id="link_container">
+  <a href="index.html">
+    <p>Home<i class="bi bi-link-45deg"></i></p>
+  </a>
+  <a href="index.html#about-respondent">
+    <p>About<i class="bi bi-link-45deg"></i></p>
+  </a>
+  <a href="preference.html">
+    <p>Preference<i class="bi bi-link-45deg"></i></p>
+  </a>
+  <a href="ratings.html">
+    <p>Rating<i class="bi bi-link-45deg"></i></p>
+  </a>
+  <a href="recommendation.html">
+    <p>Recommendation<i class="bi bi-link-45deg"></i></p>
+  </a>
+</div>
+
+
+
+<!--- Retention --------------------------------------------------------------->
+<div class="page-section odd top">
+<div class="output-container">
+<h4 class="output-title">
+Satisfaction &amp; Retention
+</h4>
+<h6 class="question sub">
+To measure the customer retention rate, <span class="bolder">we asked the respondents whether they would continue to patronize Coffee House in the future.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-8">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary odd">
+<p class="summary-text">
+  As customer retention proves to be a significant advantage for the coffee house, a direct inquiry into respondents' future intentions and their relationship with the coffee house was conducted. The findings indicate that 77% of respondents expressed their commitment to continuing future purchases, highlighting a positive position for maintaining existing customer relationships. Though, it is noteworthy that 23% stated their intention not to continue making future purchases. Exploring the reasons behind this decision could provide valuable insights, enabling the coffee house to make informed adjustments and prevent further customer attrition to competitors.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-4">
+<div class="cell">
+<div class="cell-output-display">
+<div class="future-purchase-container">
+<div class="value-container">
+<p class="percent pr">
+<i class="bi bi-check2-circle"></i>
+<span class="big-text">77%</span>
+Retention
+</p>
+</div>
+<div class="value-container">
+<p class="percent pc">
+<i class="bi bi-exclamation-triangle"></i>
+<span class="big-text">23%</span>
+Churn
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- End of grid ----------------------------------------------------------->
+</div>
+</div>
+<!--- End of Future Purchase -------------------------------------------------->
+<!--- Visit Frequency --------------------------------------------------------->
+<div class="page-section even">
+<div class="output-container">
+<h4 class="output-title">
+Visit frequency
+</h4>
+<h6 class="question sub">
+To measure the customer level of engagement, <span class="bolder">we asked the respondents how often they visit the coffee house.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-8">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+<!--- End of plot ---------------------------------->
+<div class="g-col-12 g-col-md-4">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+  The coffee house visitation patterns among respondents indicate that a significant majority, specifically 62%, rarely visit Coffee House. When examining more specific time frames, 21% report a monthly visitation frequency. Daily visitors constitute a minimal 2%, and those who visit on a weekly basis make up 7% of the total respondent pool. 
+  </p>
+</div>
+</div>
+</div>
+</div>
+<!--- End of summary ---------------------------------->
+</div>
+<!--- End of grid ----------------------------------------------------------->
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+  The fact that a majority (62%) of respondents rarely visit the coffee house indicates a lower level of engagement or loyalty among a significant portion of the customer base. In terms of customer retention, this could pose a risk as infrequent visits may lead to a weaker connection between the customers and the coffee house.
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- End of visit Frequency -------------------------------------------------->
+<!--- Order Frequency --------------------------------------------------------->
+<div class="page-section odd">
+<div class="output-container">
+<h4 class="output-title">
+Delivery option
+</h4>
+<h6 class="question sub">
+To understand how customers prefer to make their order when they visit the outlet, <span class="bolder">we asked the respondents how do they make purchase at the coffee house.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<div class="summary odd">
+<p class="summary-text">
+40% of respondents indicated a preference for take-away, emphasizing a desire for quick service. Close behind, 38% expressed a preference for dining in, indicating a willingness to linger, particularly during events such as meetings. Drive-through service, known for its convenience, was favored by 16% of respondents. Notably, 6% of participants did not express a specific preference for any particular ordering method.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<!--- End of plot ---------------------------------->
+<div class="g-col-12 g-col-md-6">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<div class="summary odd">
+<p class="summary-text">
+  A significant majority of respondents in the take-away, dine-in, and drive-through categories, averaging 80% in each group, expressed an intention to continue making future purchases. On the other hand, for those respondents indicating 'No preference' for a specific purchase method, more than 55% conveyed that they would not make future purchases. This finding highlight a possible challenge in retaining customers without a preferred purchase method, indicating a lower level of engagement or understandings of the available options. 
+  </p>
+</div>
+</div>
+</div>
+</div>
+<!--- End of summary ---------------------------------->
+</div>
+<!--- End of grid ----------------------------------------------------------->
+</div>
+</div>
+<!--- End of Order Frequency -------------------------------------------------->
+<!--- Membership -------------------------------------------------------------->
+<div class="page-section even">
+<div class="output-container">
+<h4 class="output-title">
+Membership
+</h4>
+<h6 class="question sub">
+To access customers level of loyalty, <span class="bolder">we asked them if they are members of Coffee House.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-5">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+The distinction between members and non-members of the coffee house is relatively narrow, with 51% of respondents indicating that they are not members, while 49% stated that they hold membership.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7">
+<div class="cell">
+<div class="cell-output-display">
+<div class="membership-container">
+<div class="member">
+<i class="bi bi-person-check-fill"></i>
+<p class="value">49%</p>
+<p>Member</p>
+</div>
+<div class="member non">
+<i class="bi bi-person-x-fill"></i>
+<p class="value">51%</p>
+<p>non-Member</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- End of member content -------------------------------------->
+</div>
+<!--- End of membership_count grid --------------------------------------->
+</div>
+<div class="output-container">
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<h4 class="question">
+<i class="bi bi-plus"></i>How members heard about coffee house.
+</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+The primary means through which members became aware of Coffee House was via 'Social Media,' with a significant 35% of respondents citing this platform. Following closely, 19% mentioned discovering the outlet through the 'Display advertising.' 'Word of mouth' played a substantial role as well, accounting for 18% of total responses. Other mediums, including 'Emails' and 'In-store display,' contributed to awareness, while 'Deals site &amp; billboards' represented the least common channels, comprising only 8% in combination.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-6">
+<h4 class="question">
+<i class="bi bi-plus"></i>Membership &amp; age group distribution.
+</h4>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-15-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+When examining membership in correlation with age groups, a substantial majority, comprising 72% of members, falls within the 20 to 29 age range. Another 18% are aged between 30 and 39. Comparatively, only a small percentage falls below the age of 20 or above the age of 40. In summary, it is evident that the coffee house's most loyal customers are predominantly within the age range of 20 to 39 years.
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- End of membership_age_range grid ----------------------------------->
+</div>
+<div class="output-container">
+<h4 class="question">
+<i class="bi bi-plus"></i>Membership &amp; Possible Future Purchase
+</h4>
+<div class="grid">
+<div class="g-col-12 g-col-md-5">
+<div class="cell">
+<div class="cell-output-display">
+<div class="membership-fp-container">
+<div class="item end b-end">
+<div class="box r wh10">
+<i class="bi bi-person-check-fill"></i>
+<p class="value">45%</p>
+<p class="m-name">Member</p>
+<p class="fp-name">Possible Retention</p>
+</div>
+</div>
+<div class="item start b-end">
+<div class="box c wh8">
+<i class="bi bi-person-check-fill"></i>
+<p class="value">4%</p>
+<p class="m-name">Member</p>
+<p class="fp-name">Possible Churn</p>
+</div>
+</div>
+<div class="item end b-start">
+<div class="box c wh8-5">
+<i class="bi bi-person-x-fill"></i>
+<p class="value">19%</p>
+<p class="m-name">non-Member</p>
+<p class="fp-name">Possible Churn</p>
+</div>
+</div>
+<div class="item start b-start">
+<div class="box r wh9-5">
+<i class="bi bi-person-x-fill"></i>
+<p class="value">32%</p>
+<p class="m-name">non-Member</p>
+<p class="fp-name">Possible Retention</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-7">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+Upon inpecting the responses regarding possible future purchases by members and non-members of the coffee house, it is evident that 45% of the total respondents who are members expressed an intention to continue making future purchases. In contrast, 32% of non-members shared a similar sentiment. Additionally, 4% of members conveyed that they would not be making any future purchases, while 19% of non-members expressed the same intention. These findings highlight varying attitudes toward future patronage, with a higher percentage of members expressing a positive standpoint for continued engagement.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<!--- End of member content -------------------------------------->
+</div>
+<!--- End of membership_count grid --------------------------------------->
+</div>
+</div>
+<!--- End of Membership ------------------------------------------------------->
+<!--- purchase Frequency ------------------------------------------------------>
+<div class="page-section odd">
+<div class="output-container">
+<h4 class="output-title">
+Number of frequently purchased products
+</h4>
+<h6 class="question sub">
+To measure the number of orders made frequently and how it affect customer future stance, <span class="bolder">we asked customer their most frequent order.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-4">
+<div class="cell">
+<div class="cell-output-display">
+
+<div id="ztrhfarnld" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ztrhfarnld table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ztrhfarnld thead, #ztrhfarnld tbody, #ztrhfarnld tfoot, #ztrhfarnld tr, #ztrhfarnld td, #ztrhfarnld th {
+  border-style: none;
+}
+
+#ztrhfarnld p {
+  margin: 0;
+  padding: 0;
+}
+
+#ztrhfarnld .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4A2419;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #EDE0D4;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ztrhfarnld .gt_title {
+  color: #4A2419;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #EDE0D4;
+  border-bottom-width: 0;
+}
+
+#ztrhfarnld .gt_subtitle {
+  color: #4A2419;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #EDE0D4;
+  border-top-width: 0;
+}
+
+#ztrhfarnld .gt_heading {
+  background-color: #EDE0D4;
+  text-align: center;
+  border-bottom-color: #EDE0D4;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #EDE0D4;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #EDE0D4;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_col_heading {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ztrhfarnld .gt_column_spanner_outer {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ztrhfarnld .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ztrhfarnld .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ztrhfarnld .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #EDE0D4;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ztrhfarnld .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ztrhfarnld .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #4A2419;
+  background-color: #EDE0D4;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ztrhfarnld .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #4A2419;
+  background-color: #EDE0D4;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ztrhfarnld .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ztrhfarnld .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ztrhfarnld .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #4A2419;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ztrhfarnld .gt_stub {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ztrhfarnld .gt_stub_row_group {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ztrhfarnld .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ztrhfarnld .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ztrhfarnld .gt_summary_row {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ztrhfarnld .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ztrhfarnld .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_grand_summary_row {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ztrhfarnld .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ztrhfarnld .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #EDE0D4;
+}
+
+#ztrhfarnld .gt_footnotes {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ztrhfarnld .gt_sourcenotes {
+  color: #4A2419;
+  background-color: #EDE0D4;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ztrhfarnld .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ztrhfarnld .gt_left {
+  text-align: left;
+}
+
+#ztrhfarnld .gt_center {
+  text-align: center;
+}
+
+#ztrhfarnld .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ztrhfarnld .gt_font_normal {
+  font-weight: normal;
+}
+
+#ztrhfarnld .gt_font_bold {
+  font-weight: bold;
+}
+
+#ztrhfarnld .gt_font_italic {
+  font-style: italic;
+}
+
+#ztrhfarnld .gt_super {
+  font-size: 65%;
+}
+
+#ztrhfarnld .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ztrhfarnld .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ztrhfarnld .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ztrhfarnld .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ztrhfarnld .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ztrhfarnld .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ztrhfarnld .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="true">
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>Orders</strong>"><strong>Orders</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>Future Purchase?</strong>"><strong>Future Purchase?</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="<strong>Respondent</strong>"><strong>Respondent</strong></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #7F5539; color: #FFFFFF;">1</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #7F5539; color: #FFFFFF;">No</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #7F5539; color: #FFFFFF;">23%</td></tr>
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">1</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">Yes</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">77%</td></tr>
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #7F5539; color: #FFFFFF;">2</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #7F5539; color: #FFFFFF;">No</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #7F5539; color: #FFFFFF;">12%</td></tr>
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">2</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">Yes</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">88%</td></tr>
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">3</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">Yes</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">100%</td></tr>
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">4</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">Yes</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">100%</td></tr>
+    <tr><td headers="distinct_product" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">5</td>
+<td headers="possible_future_purchase" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">Yes</td>
+<td headers="percentage" class="gt_row gt_center" style="background-color: #4A2419; color: #FFFFFF;">100%</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-8">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary odd">
+<p class="summary-text">
+ The data indicates a positive correlation between the frequency of orders and the likelihood of making future purchases. Notably, 100% of respondents making 3 to 5 frequent orders expressed their intent to continue making future purchases. Similarly, 88% of respondents with 2 frequent orders plan to make future purchases. In contrast, 77% of those with 1 frequent order indicated their intention to make future purchases. This pattern suggests that as the number of frequent orders increases, so does the propensity for customers to continue engaging with the coffee house in the future.
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- Ads Views --------------------------------------------------------->
+<div class="page-section even">
+<div class="output-container">
+<h4 class="output-title">
+Promotion
+</h4>
+<h6 class="question sub">
+To understand how customers became aware of Coffee House, <span class="bolder">we asked customer how they came to hear our promotions.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-7">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-5">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary even">
+<p class="summary-text">
+Awareness of the coffee house through advertising and promotions reveals that 38% of respondents learned about it through social media, emphasizing the impact of online platforms. Word of mouth played a significant role, with 21% of respondents acquiring information through recommendations. Additionally, 15% mentioned discovering the coffee house through display advertising, while 9% cited in-store displays. The remaining 17% is distributed among various channels, including emails, billboards, deal sites, and application offers, demonstrating a diverse range of sources contributing to customer awareness.
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- Average Spend --------------------------------------------------------->
+<div class="page-section odd">
+<div class="output-container">
+<h4 class="output-title">
+Average spend
+</h4>
+<h6 class="question sub">
+To measure the expected amount customers would spend per visit, <span class="bolder">we asked them on average, how much they would spend at Coffee House per visit.</span>
+</h6>
+<div class="grid">
+<div class="g-col-12 g-col-md-7">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="preference_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-md-5">
+<div class="cell">
+<div class="cell-output-display">
+<div class="summary odd">
+<p class="summary-text">
+Examining the relationship between customer average spend and future purchases reveals interesting patterns. Of the respondents who indicated they would spend more than RM40 on average (6% of the total), all expressed their intention to continue making future purchases. Additionally, 37% of respondents planning to spend between RM20 and RM40 conveyed a high intent for future purchases, with 93% expressing their commitment. For those intending to spend below RM20, a substantial 71% stated their intent to continue purchasing in the future. This observation suggests a possible positive correlation between customer willingness to spend and their likelihood of remaining active and engaged in the future.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--- Observations ------------------------------------------------------------>
+<div class="page-section even">
+<h4 class="output-title mb-4">
+Key Observation
+</h4>
+<ul class="key-findings">
+<li class="dot-space">
+<i class="bi bi-circle dot"></i>Majority of respondents rarely visit Coffee House which poses a challenge for customer retention and loyalty.
+</li>
+<li class="dot-space">
+<i class="bi bi-circle dot"></i>When making orders at coffee House, 40% prefer take-away, 38% prefer dine-in, and 16% prefer drive-through, which reflect a balance between quick and moderate services.
+</li>
+<li class="dot-space">
+<i class="bi bi-circle dot"></i>The respondents are almost evenly split between members and non-members of Coffee House, with 49% and 51% respectively. This raises the issue of customer loyalty and how to increase it.
+</li>
+<li class="dot-space">
+<i class="bi bi-circle dot"></i>A higher frequency of orders correlates with a higher likelihood of future purchases.
+</li>
+<li class="dot-space">
+<i class="bi bi-circle dot"></i>Respondents that are willing to spend more are more likely to make future purchases.
+</li>
+</ul>
+</div>
+<!--- End of Observations ----------------------------------------------------->
+<div class="cell">
+<script type="text/javascript">
+
+function toggleLinkContainer() {
+  // Define a variable to store the timer ID
+  let timer;
+  
+  // Get elements from the document
+  let hover_icon = document.getElementById("hover_icon");
+  let link_container = document.getElementById("link_container");
+  
+  // Add a mouse hover event listener to the icon and show link container
+  hover_icon.addEventListener("mouseover", showLinkContainer);
+  link_container.addEventListener("mouseover", showLinkContainer);
+  
+  // Remove link container
+  hover_icon.addEventListener("mouseleave", hideLinkContainer);
+  link_container.addEventListener("mouseleave", hideLinkContainer);
+  
+  // Define function
+  function showLinkContainer() {
+    // clear the timer if it exists
+    if (timer) {
+      clearTimeout(timer);
+    }
+    
+    link_container.className = "show";
+  }
+  
+  function hideLinkContainer() {
+   // Set a timer to hide the container after 2 seconds (2000 milliseconds)
+   timer = setTimeout(function() {
+     link_container.className = "c_hidden";
+   }, 1000);
+    
+  }
+  
+}
+
+
+toggleLinkContainer();
+
+</script>
+</div>
+
+
+
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
